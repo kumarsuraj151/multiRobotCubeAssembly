@@ -3,6 +3,7 @@
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/softbank/nao/protos/Nao.proto"
 
 WorldInfo {
   info [
@@ -10,8 +11,8 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation 0.20905170111806093 -0.5034425005557692 -0.8383573431978749 5.363412624796077
-  position -6.429777466998045 -6.837603425342875 5.729739141578728
+  orientation 0.2700938140849485 -0.5805492684545096 -0.768122306986315 5.194010324183566
+  position -4.680421851775678 -4.8876311069492315 4.617093789932526
 }
 TexturedBackground {
 }
@@ -448,7 +449,7 @@ Solid {
   model "rectangle arena"
 }
 Wall {
-  translation 0.02 0.43 0
+  translation 0 0.43 0
   name "wall(1)"
   size 0.01 4 0.3
 }
@@ -512,6 +513,47 @@ Solid {
     }
   ]
   name "cubeBlock(1)"
+}
+Nao {
+  hidden rotation_22 0 1 0 0.9599999997008621
+  hidden rotation_23 0 0.9999999999999999 0 0.9599999998563215
+  hidden rotation_25 0 1 0 0.9599999997008688
+  hidden rotation_26 0 1 0 0.9599999998563032
+  hidden rotation_34 0 0.9999999999999999 0 0.9599999996927387
+  hidden rotation_35 0 1 0 0.9599999998626687
+  hidden rotation_37 0 0.9999999999999999 0 0.9599999996927387
+  hidden rotation_38 0 1 0 0.9599999998626927
+  translation -1.111636587215528 -2.168715472672564 0.3325666475305594
+  rotation 0.0015673424072953634 -0.397659951308006 0.9175315289206647 0.008607040606393208
+  controller "nao_demo_python"
+}
+Nao {
+  hidden rotation_22 0 1 0 0.9599999997008803
+  hidden rotation_23 0 1 0 0.9599999998563523
+  hidden rotation_25 0 1 0 0.9599999997008352
+  hidden rotation_26 0 1 0 0.9599999998563667
+  hidden rotation_34 0 0.9999999999999999 0 0.9599999996927406
+  hidden rotation_35 0 0.9999999999999999 0 0.9599999998626811
+  hidden rotation_37 0 1 0 0.959999999692756
+  hidden rotation_38 0 1 0 0.9599999998626869
+  translation -2.1782427167717184 -1.6109939912907354 0.33256664757449883
+  rotation 0.0017113402968692536 -0.0016642445469328923 0.9999971507981791 1.5987128805264288
+  name "NAO(1)"
+  controller "nao_demo_python"
+}
+Nao {
+  hidden rotation_22 0 1 0 0.9599999997008717
+  hidden rotation_23 0 0.9999999999999999 0 0.9599999998563148
+  hidden rotation_25 0 1 0 0.9599999997008803
+  hidden rotation_26 0 1 0 0.9599999998562917
+  hidden rotation_34 0 1 0 0.959999999692758
+  hidden rotation_35 0 1 0 0.9599999998626803
+  hidden rotation_37 0 1 0 0.959999999692757
+  hidden rotation_38 0 1 0 0.9599999998626609
+  translation -1.9516365872155368 -2.148715472672561 0.332566647530559
+  rotation 0.0015673424063767608 -0.39765995131031445 0.9175315289196658 0.008607040606342908
+  name "NAO(2)"
+  controller "nao_demo_python"
 }
 Solid {
   translation -2.17 1.62 0.1

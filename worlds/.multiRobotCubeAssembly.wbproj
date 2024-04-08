@@ -5,6 +5,12 @@ sceneTreePerspectives: 000000ff000000010000000300000026000000c0000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 0 "controllers/my_controller/my_controller.py"
+textFiles: 0 "../../../../../../../Program Files/Webots/projects/robots/softbank/nao/controllers/nao_demo_python/nao_demo_python.py"
 consoles: Console:All:All
+renderingDevicePerspectives: NAO(1):CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO(1):CameraTop;1;1;0;0
+renderingDevicePerspectives: NAO(2):CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO(2):CameraTop;1;1;0;0
+renderingDevicePerspectives: NAO:CameraBottom;1;1;0;0
+renderingDevicePerspectives: NAO:CameraTop;1;1;0;0
 renderingDevicePerspectives: e-puck:camera;1;1;0;0
